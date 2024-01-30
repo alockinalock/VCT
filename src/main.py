@@ -6,6 +6,9 @@ from dotenv import load_dotenv
 from discord import app_commands
 from discord.ext import commands, tasks
 
+# https://discordpy.readthedocs.io/en/v2.3.2/ext/commands/cogs.html
+# TODO: import legacy.py using cogs
+
 load_dotenv()
 token = os.getenv("token")
 
